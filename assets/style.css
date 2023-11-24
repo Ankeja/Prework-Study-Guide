@@ -1,0 +1,45 @@
+* {
+    /*Margin is the amount of space around the outside of an element*/ 
+    margin: 0;
+    /*Padding is space around the content inside an element*/
+    padding: 0;
+}
+
+header,
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: blue;
+    color: white;
+}
+
+h1,
+h2{
+    text-align: center;
+}
+
+img {
+    /*display:block; assigns each image to start on a new line*/
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.card {
+    width: 80%;
+    margin: 40px auto;
+    border: 5px solid #808080;
+    box-shadow: 5px 10px #888888;
+  }
